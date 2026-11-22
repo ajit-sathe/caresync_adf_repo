@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-caresync-ajit"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "1121-145404-2nudjq8r"
+		},
+		"LA_AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "caresync-server-ajit.database.windows.net"
+		},
+		"LA_AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "caresynce-db-ajit"
+		},
+		"LA_AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "ajit"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://caresyncprojectajit.dfs.core.windows.net/"
+		},
+		"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://caresynce-keyvaultajit.vault.azure.net/"
+		},
+		"PostgreSql1_properties_typeProperties_server": {
+			"value": "ep-lingering-sound-a124answ-pooler.ap-southeast-1.aws.neon.tech"
+		},
+		"PostgreSql1_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"PostgreSql1_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}

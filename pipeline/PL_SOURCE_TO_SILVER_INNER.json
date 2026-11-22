@@ -200,7 +200,7 @@
 				}
 			},
 			{
-				"name": "Upadte failed  status_copy1",
+				"name": "Upadte success status_copy",
 				"type": "Script",
 				"dependsOn": [
 					{

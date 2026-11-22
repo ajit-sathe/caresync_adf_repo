@@ -12,7 +12,8 @@
 					"type": "LinkedServiceReference"
 				},
 				"secretName": "abd-pat"
-			}
+			},
+			"existingClusterId": "1121-145404-2nudjq8r"
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/linkedservices"
